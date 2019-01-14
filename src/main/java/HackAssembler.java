@@ -54,6 +54,9 @@ public class HackAssembler {
     }
 
     public static void main(String[] args) {
+        if (args.length == 0 || !args[0].split("\\.")[1].equals("asm")) {
+            throw new IllegalArgumentException("Must specify a valid .asm file!");
+        }
         String machineCode = compile(args[0]);
         String outputFilePath = args[0].split("\\.")[0] + ".hack";
         try {
