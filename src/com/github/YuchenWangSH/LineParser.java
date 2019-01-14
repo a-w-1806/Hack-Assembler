@@ -41,7 +41,8 @@ public class LineParser {
     private String dest, comp, jump;
 
     public LineParser(String line) {
-        assemblyLine = removeCommentBlank(line);
+        assemblyLine = line;
+        assemblyLine = removeCommentBlank();
         type = identifyType();
 
         if (type == Command.L_COMMAND) {
@@ -61,11 +62,11 @@ public class LineParser {
         return symbol;
     }
 
-    private String removeCommentBlank(String s) {
+    public String removeCommentBlank() {
         return null;
     }
 
-    private int getNextLineNumber() {
+    public int getNextLineNumber() {
         return 0;
     }
 
