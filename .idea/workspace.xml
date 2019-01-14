@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a38bbfd1-aca3-4147-93aa-d2db6482b75e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/YuchenWangSH/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/YuchenWangSH/LineParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/YuchenWangSH/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/YuchenWangSH/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/YuchenWangSH/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/YuchenWangSH/HackAssembler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +19,14 @@
     <session id="973709239">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -28,22 +34,27 @@
           <entry key="asm" value="2" />
           <entry key="hack" value="4" />
           <entry key="iml" value="1" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="11" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="598" />
+          <entry key="dummy" value="29" />
+          <entry key="java" value="5735" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="598" />
+          <entry key="JAVA" value="5735" />
+          <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
     </session>
@@ -51,15 +62,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/HackAssembler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="192">
+              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding>
+                <element signature="method#compile#0;class#HackAssembler#0" />
+                <element signature="method#secondPass#0;class#HackAssembler#0" />
+                <element signature="method#firstPass#0;class#HackAssembler#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/LineParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="initializer##0;class#LineParser#0" />
+                <element signature="e#1390#1391#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1451#1452#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1606#1607#0" expanded="true" />
+                <element signature="e#1657#1658#0" expanded="true" />
+                <element signature="e#1684#1685#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
+                <element signature="e#1692#1693#0" expanded="true" />
+                <element signature="docComment;method#identifyType#0;class#LineParser#0" />
+                <element signature="e#1905#1906#0" expanded="true" />
+                <element signature="e#1932#1933#0" expanded="true" />
+                <element signature="e#1968#1969#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+                <element signature="e#2031#2032#0" expanded="true" />
+                <element signature="e#2058#2059#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +131,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/CommentsParser.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/CommentsBlankParser.java" />
         <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/Instructions.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/LabelParser.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/AInstructionParser.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/CInstructionParser.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/Assembler.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/Instruction.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/Parser.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/Command.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/LineParser.java" />
+        <option value="$PROJECT_DIR$/src/com/github/YuchenWangSH/HackAssembler.java" />
       </list>
     </option>
   </component>
@@ -88,6 +164,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,31 +182,19 @@
               <item name="Hack-Assembler" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hack-Assembler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hack-Assembler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hack-Assembler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="add" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hack-Assembler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hack-Assembler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="YuchenWangSH" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547391652600" />
+    <property name="SearchEverywhereHistoryKey" value="wakatime&#9;ACTION&#9;WakaTimeApiKey" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547438097778" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,7 +210,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.github.YuchenWangSH.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.github.YuchenWangSH.HackAssembler" />
       <module name="Hack-Assembler" />
       <option name="PROGRAM_PARAMETERS" value="src/assembly/add/Add.asm" />
       <RunnerSettings RunnerId="Run" />
@@ -165,6 +231,14 @@
       <option name="presentableId" value="Default" />
       <updated>1547294509770</updated>
     </task>
+    <task id="LOCAL-00001" summary="File IO.">
+      <created>1547391691845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547391691845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -180,14 +254,13 @@
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.25788197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.30234438" />
       <window_info id="Structure" order="1" sideWeight="0.5017007" side_tool="true" weight="0.25788197" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38265306" />
@@ -199,6 +272,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32993197" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -211,6 +285,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="File IO." />
+    <option name="LAST_COMMIT_MESSAGE" value="File IO." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -242,10 +320,112 @@
         <state relative-caret-position="-212" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/LabelParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/CInstructionParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="72">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/AInstructionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/CommentsBlankParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/Assembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/HackAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initSymTable#0;class#HackAssembler#0" />
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="method#compile#0;class#HackAssembler#0" />
+            <element signature="e#2338#2374#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/LineParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#LineParser#0" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="docComment;method#identifyType#0;class#LineParser#0" />
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/YuchenWangSH/HackAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="method#compile#0;class#HackAssembler#0" />
+            <element signature="method#secondPass#0;class#HackAssembler#0" />
+            <element signature="method#firstPass#0;class#HackAssembler#0" />
+          </folding>
         </state>
       </provider>
     </entry>
