@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06bd54ed-eb06-4674-afcb-74a0aabbf076" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -70,12 +71,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="12" />
+          <entry key="txt" value="59" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -106,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="96">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -458,6 +461,24 @@
               <item name="Hack-Assembler" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hack-Assembler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="Hack-Assembler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hack-Assembler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hack-Assembler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hack-Assembler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hack-Assembler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hack-Assembler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -466,7 +487,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547451594518" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547452073506" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -581,7 +602,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547451284539</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Permission access for Travis.">
+      <created>1547451463142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547451463142</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Permission access for Travis. Another try.">
+      <created>1547451623248</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547451623248</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -603,10 +638,10 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32993197" />
       <window_info anchor="bottom" id="Messages" weight="0.32993197" />
@@ -634,7 +669,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gradle init." />
-    <option name="LAST_COMMIT_MESSAGE" value="Gradle init." />
+    <MESSAGE value="Permission access for Travis." />
+    <MESSAGE value="Permission access for Travis. Another try." />
+    <option name="LAST_COMMIT_MESSAGE" value="Permission access for Travis. Another try." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Command.java">
@@ -670,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="96">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
