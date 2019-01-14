@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06bd54ed-eb06-4674-afcb-74a0aabbf076" name="Default Changelist" comment="">
+    <list default="true" id="06bd54ed-eb06-4674-afcb-74a0aabbf076" name="Default Changelist" comment="Remove assembly files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LineParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LineParser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,25 +60,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="class" value="3" />
+          <entry key="java" value="5" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="5" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="59" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="1268" />
+          <entry key="txt" value="233" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="JAVA" value="1268" />
+          <entry key="PLAIN_TEXT" value="237" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -85,32 +91,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HackAssembler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LineParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            <state relative-caret-position="312">
+              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -118,8 +110,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LineParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="507">
+              <caret line="109" column="41" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
+              <folding>
+                <element signature="initializer##0;class#LineParser#0" />
+                <element signature="method#removeCommentBlank#0;class#LineParser#0" />
+                <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#1799#1800#0" expanded="true" />
+                <element signature="e#3060#3061#0" expanded="true" />
+                <element signature="e#3087#3088#0" expanded="true" />
+                <element signature="e#3119#3120#0" expanded="true" />
+                <element signature="e#3146#3147#0" expanded="true" />
+                <element signature="e#3177#3178#0" expanded="true" />
+                <element signature="e#3204#3205#0" expanded="true" />
+                <element signature="e#3235#3236#0" expanded="true" />
+                <element signature="e#3262#3263#0" expanded="true" />
+                <element signature="e#3293#3294#0" expanded="true" />
+                <element signature="e#3320#3321#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +142,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>L</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -435,14 +448,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/HackAssembler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LineParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/Command.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LineParserTest.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/LineParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LineParser.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1944" />
@@ -476,8 +489,14 @@
               <item name="Hack-Assembler" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hack-Assembler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hack-Assembler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hack-Assembler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -487,7 +506,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547452073506" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547456746407" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -501,86 +520,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Hack-Assembler [check]">
-    <configuration name="HackAssembler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackAssembler" />
-      <module name="Hack-Assembler_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hack-Assembler [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="check" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="Hack-Assembler [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="LineParserTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LineParserTest.cNoDest">
+    <configuration name="LineParserTest.c" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hack-Assembler_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LineParserTest" />
+      <option name="METHOD_NAME" value="c" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LineParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LineParserTest.cNoDest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hack-Assembler_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test.LineParserTest" />
+      <option name="MAIN_CLASS_NAME" value="LineParserTest" />
+      <option name="METHOD_NAME" value="cNoDest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineParserTest.cNoJump" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hack-Assembler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LineParserTest" />
+      <option name="METHOD_NAME" value="cNoJump" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineParserTest.getSymbol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hack-Assembler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LineParserTest" />
+      <option name="METHOD_NAME" value="getSymbol" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineParserTest.getType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hack-Assembler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LineParserTest" />
+      <option name="METHOD_NAME" value="getType" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HackAssembler" />
-      <item itemvalue="JUnit.LineParserTest" />
-      <item itemvalue="JUnit.LineParserTest (1)" />
-      <item itemvalue="Gradle.Hack-Assembler [test]" />
-      <item itemvalue="Gradle.Hack-Assembler [check]" />
+      <item itemvalue="JUnit.LineParserTest.getType" />
+      <item itemvalue="JUnit.LineParserTest.getSymbol" />
+      <item itemvalue="JUnit.LineParserTest.c" />
+      <item itemvalue="JUnit.LineParserTest.cNoJump" />
+      <item itemvalue="JUnit.LineParserTest.cNoDest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Hack-Assembler [check]" />
-        <item itemvalue="Gradle.Hack-Assembler [test]" />
-        <item itemvalue="JUnit.LineParserTest (1)" />
-        <item itemvalue="JUnit.LineParserTest" />
-        <item itemvalue="Application.HackAssembler" />
+        <item itemvalue="JUnit.LineParserTest.cNoDest" />
+        <item itemvalue="JUnit.LineParserTest.cNoJump" />
+        <item itemvalue="JUnit.LineParserTest.c" />
+        <item itemvalue="JUnit.LineParserTest.getSymbol" />
+        <item itemvalue="JUnit.LineParserTest.getType" />
       </list>
     </recent_temporary>
   </component>
@@ -616,40 +620,97 @@
       <option name="project" value="LOCAL" />
       <updated>1547451623248</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Remove assembly files.">
+      <created>1547452161507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547452161507</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JUnit left is expected, right is actual.">
+      <created>1547453241221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547453241221</updated>
+    </task>
+    <task id="LOCAL-00006" summary="removeCommentBlank.">
+      <created>1547453299692</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547453299692</updated>
+    </task>
+    <task id="LOCAL-00007" summary="identifyType.">
+      <created>1547453600657</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547453600657</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add some tests and rename some variables.">
+      <created>1547454737283</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547454737283</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LineParserTest_(1) - 2019.01.14 at 15h 29m 04s.xml">
-      <configuration name="LineParserTest (1)" configurationId="JUnit" />
+    <history-entry file="LineParserTest_getType - 2019.01.14 at 16h 12m 48s.xml">
+      <configuration name="LineParserTest.getType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Hack-Assembler_[test] - 2019.01.14 at 15h 30m 43s.xml">
-      <configuration name="Hack-Assembler [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LineParserTest_getSymbol - 2019.01.14 at 16h 19m 35s.xml">
+      <configuration name="LineParserTest.getSymbol" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Hack-Assembler_[check] - 2019.01.14 at 15h 31m 37s.xml">
-      <configuration name="Hack-Assembler [check]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LineParserTest_c - 2019.01.14 at 16h 41m 23s.xml">
+      <configuration name="LineParserTest.c" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineParserTest_c - 2019.01.14 at 16h 42m 23s.xml">
+      <configuration name="LineParserTest.c" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineParserTest_c - 2019.01.14 at 16h 42m 44s.xml">
+      <configuration name="LineParserTest.c" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineParserTest_c - 2019.01.14 at 16h 42m 53s.xml">
+      <configuration name="LineParserTest.c" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineParserTest_c - 2019.01.14 at 16h 43m 36s.xml">
+      <configuration name="LineParserTest.c" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineParserTest_c - 2019.01.14 at 17h 05m 23s.xml">
+      <configuration name="LineParserTest.c" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineParserTest_cNoJump - 2019.01.14 at 17h 05m 29s.xml">
+      <configuration name="LineParserTest.cNoJump" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineParserTest_cNoDest - 2019.01.14 at 17h 05m 37s.xml">
+      <configuration name="LineParserTest.cNoDest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="720" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32993197" />
       <window_info anchor="bottom" id="Messages" weight="0.32993197" />
       <window_info anchor="bottom" id="Style Checker" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328594" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968404" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -671,9 +732,42 @@
     <MESSAGE value="Gradle init." />
     <MESSAGE value="Permission access for Travis." />
     <MESSAGE value="Permission access for Travis. Another try." />
-    <option name="LAST_COMMIT_MESSAGE" value="Permission access for Travis. Another try." />
+    <MESSAGE value="Remove assembly files." />
+    <MESSAGE value="JUnit left is expected, right is actual." />
+    <MESSAGE value="removeCommentBlank." />
+    <MESSAGE value="identifyType." />
+    <MESSAGE value="Add some tests and rename some variables." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some tests and rename some variables." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="2221" column="18" selection-start-line="2221" selection-start-column="18" selection-end-line="2221" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/OneDrive/Library/CS61B_sp18/skeleton-sp18-master/library-sp18/javalib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HackAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -683,32 +777,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LineParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HackAssembler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="507">
+          <caret line="109" column="41" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
+          <folding>
+            <element signature="initializer##0;class#LineParser#0" />
+            <element signature="method#removeCommentBlank#0;class#LineParser#0" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#3060#3061#0" expanded="true" />
+            <element signature="e#3087#3088#0" expanded="true" />
+            <element signature="e#3119#3120#0" expanded="true" />
+            <element signature="e#3146#3147#0" expanded="true" />
+            <element signature="e#3177#3178#0" expanded="true" />
+            <element signature="e#3204#3205#0" expanded="true" />
+            <element signature="e#3235#3236#0" expanded="true" />
+            <element signature="e#3262#3263#0" expanded="true" />
+            <element signature="e#3293#3294#0" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LineParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        <state relative-caret-position="312">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>

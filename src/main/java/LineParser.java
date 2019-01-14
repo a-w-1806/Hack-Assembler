@@ -87,9 +87,30 @@ public class LineParser {
             return null;
         }
         switch (assemblyLine.charAt(0)) {
-            case '@':   return Command.A_COMMAND;
-            case '(':   return Command.L_COMMAND;
-            default:    return Command.C_COMMAND;
+            case '@':
+                symbol = assemblyLine.substring(1);
+                return Command.A_COMMAND;
+            case '(':
+                symbol = assemblyLine.substring(1, assemblyLine.length() - 1);
+                return Command.L_COMMAND;
+            default:
+                String[] tokens = assemblyLine.split("[=;]");
+                if (tokens.length == 3) {
+                    dest = tokens[0];
+                    comp = tokens[1];
+                    jump = tokens[2];
+                } else if (tokens.length == 1) {
+                    comp = tokens[0];
+                } else {
+                    if (assemblyLine.contains(";")) {
+                        comp = tokens[0];
+                        jump = tokens[1];
+                    } else {
+                        dest = tokens[0];
+                        comp = tokens[1];
+                    }
+                }
+                return Command.C_COMMAND;
         }
     }
 
@@ -99,5 +120,17 @@ public class LineParser {
 
     private String AToCode() {
         return null;
+    }
+
+    public String getDest() {
+        return dest;
+    }
+
+    public String getComp() {
+        return comp;
+    }
+
+    public String getJump() {
+        return jump;
     }
 }
