@@ -19,6 +19,7 @@ public class HackAssembler {
                     break;
                 }
                 LineParser line = new LineParser(assemblyLine);
+                // Only A and C instructions can produce machine code.
                 if (line.getType() == null || line.getType() == Command.L_COMMAND) {
                     continue;
                 }
