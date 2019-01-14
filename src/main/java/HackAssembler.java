@@ -8,6 +8,7 @@ public class HackAssembler {
     }
 
     private static String secondPass(String path) {
+        LineParser.resetNumLine();
         String machineCode = "";
         try {
             InputStream is = new FileInputStream(path);
@@ -26,7 +27,7 @@ public class HackAssembler {
                 machineCode += line.toCode() + "\n";
             }
             is.close();
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
         return machineCode;
@@ -59,7 +60,7 @@ public class HackAssembler {
             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath));
             writer.write(machineCode);
             writer.close();
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

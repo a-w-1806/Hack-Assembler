@@ -74,8 +74,4 @@ public class LineParserTest {
         assertEquals("AD=D-1;JGT", c.getAssemblyLine());
         assertEquals("", commentLine.getAssemblyLine());
     }
-
-//    @Test
-//    public void getNextLineNumber() {
-//    }
 }

@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LineParser {
+    private static int numLine = -1;
     private static Map<String, Integer> symTable = new HashMap<>();
     private static int nextRegister = 16;
     static {
@@ -42,9 +43,15 @@ public class LineParser {
         assemblyLine = removeCommentBlank(line);
         type = identifyType();
 
-        if (type == Command.L_COMMAND) {
-            symTable.put(symbol, getNextLineNumber());
+        if (type == Command.A_COMMAND || type == Command.C_COMMAND) {
+            numLine++;
+        } else if (type == Command.L_COMMAND) {
+            symTable.put(symbol, numLine + 1);
         }
+    }
+
+    public static void resetNumLine() {
+        numLine = -1;
     }
 
     public Command getType() {
@@ -76,13 +83,8 @@ public class LineParser {
             s = s.substring(0, offSet);
         }
         // Replace whitespaces with empty string.
-        s = s.replaceAll("\\s+","");
+        s = s.replaceAll("\\s+", "");
         return s;
-    }
-
-    //TODO
-    public int getNextLineNumber() {
-        return 0;
     }
 
     /**
@@ -130,7 +132,7 @@ public class LineParser {
         Integer value;
         try {
             value = Integer.parseInt(symbol);
-        } catch (Exception e) {
+        } catch (NumberFormatException e) {
             value = symTable.get(symbol);
             if (value == null) {
                 // Then this symbol is a variable.
