@@ -39,8 +39,7 @@ public class LineParser {
     private String dest, comp, jump;
 
     public LineParser(String line) {
-        assemblyLine = line;
-        assemblyLine = removeCommentBlank();
+        assemblyLine = removeCommentBlank(line);
         type = identifyType();
 
         if (type == Command.L_COMMAND) {
@@ -52,6 +51,10 @@ public class LineParser {
         return type;
     }
 
+    public String getAssemblyLine() {
+        return assemblyLine;
+    }
+
     public String toCode() {
         return null;
     }
@@ -60,8 +63,15 @@ public class LineParser {
         return symbol;
     }
 
-    public String removeCommentBlank() {
-        return null;
+    public static String removeCommentBlank(String s) {
+        // Remove the comments.
+        int offSet = s.indexOf("//");
+        if (offSet != -1) {
+            s = s.substring(0, offSet);
+        }
+        // Replace whitespaces with empty string.
+        s = s.replaceAll("\\s+","");
+        return s;
     }
 
     public int getNextLineNumber() {
