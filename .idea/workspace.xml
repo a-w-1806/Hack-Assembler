@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06bd54ed-eb06-4674-afcb-74a0aabbf076" name="Default Changelist" comment="">
+    <list default="true" id="06bd54ed-eb06-4674-afcb-74a0aabbf076" name="Default Changelist" comment="Remove .idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -78,14 +78,14 @@
           <entry key="dummy" value="4" />
           <entry key="gitignore" value="6" />
           <entry key="java" value="3084" />
-          <entry key="txt" value="444" />
+          <entry key="txt" value="468" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3084" />
-          <entry key="PLAIN_TEXT" value="454" />
+          <entry key="PLAIN_TEXT" value="478" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -510,7 +510,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547472371576" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547472491102" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -692,7 +692,28 @@
       <option name="project" value="LOCAL" />
       <updated>1547471239405</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add README.">
+      <created>1547472265667</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547472265667</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Remove .idea">
+      <created>1547472389017</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547472389017</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Remove .idea">
+      <created>1547472409999</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1547472409999</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -729,16 +750,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32993197" />
       <window_info anchor="bottom" id="Messages" weight="0.32993197" />
@@ -777,6 +799,7 @@
     <MESSAGE value="toCode()." />
     <MESSAGE value="Completed. All tests passed and file comparison all correct.&#10;&#10;Fix a minor bug: reset the numLine before second pass begins." />
     <MESSAGE value="Completed." />
+    <MESSAGE value="Add README." />
     <MESSAGE value="Remove .idea" />
     <option name="LAST_COMMIT_MESSAGE" value="Remove .idea" />
   </component>
