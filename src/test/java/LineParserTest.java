@@ -21,36 +21,36 @@ public class LineParserTest {
     public void getType() {
         assertNull(emptyLine.getType());
         assertNull(commentLine.getType());
-        assertEquals(A_pre.getType(), Command.A_COMMAND);
-        assertEquals(C.getType(), Command.C_COMMAND);
-        assertEquals(A_pre_comment.getType(), Command.A_COMMAND);
-        assertEquals(L.getType(), Command.L_COMMAND);
+        assertEquals(Command.A_COMMAND, A_pre.getType());
+        assertEquals(Command.C_COMMAND, C.getType());
+        assertEquals(Command.A_COMMAND, A_pre_comment.getType());
+        assertEquals(Command.L_COMMAND, L.getType());
     }
 
     @Test
     public void toCode() {
-        assertEquals(emptyLine.toCode(), "");
-        assertEquals(commentLine.toCode(), "");
-        assertEquals(A_pre.toCode(), "0000000000001011");
-        assertEquals(A_num.toCode(), "0000000000010111");
-        assertEquals(C.toCode(), "1110001110110001");
-        assertEquals(A_pre_comment.toCode(), "0000000000000001");
-        assertEquals(L.toCode(), "");
+        assertEquals("", emptyLine.toCode());
+        assertEquals("", commentLine.toCode());
+        assertEquals("0000000000001011", A_pre.toCode());
+        assertEquals("0000000000010111", A_num.toCode());
+        assertEquals("1110001110110001", C.toCode());
+        assertEquals("0000000000000001", A_pre_comment.toCode());
+        assertEquals("", L.toCode());
     }
 
     @Test
     public void getSymbol() {
         assertNull(C.getSymbol());
-        assertEquals(A_pre.getSymbol(), "R11");
-        assertEquals(A_num.getSymbol(), "23");
-        assertEquals(L.getSymbol(), "LOOP");
+        assertEquals("R11", A_pre.getSymbol());
+        assertEquals("23", A_num.getSymbol());
+        assertEquals("LOOP", L.getSymbol());
     }
 
     @Test
     public void removeCommentBlank() {
-        assertEquals(A_pre_comment.removeCommentBlank(), "@R11");
-        assertEquals(C.removeCommentBlank(), "AD=D-1;JGT");
-        assertEquals(commentLine.removeCommentBlank(), "");
+        assertEquals("@R1", A_pre_comment.getAssemblyLine());
+        assertEquals("AD=D-1;JGT", C.getAssemblyLine());
+        assertEquals("", commentLine.getAssemblyLine());
     }
 
 //    @Test
