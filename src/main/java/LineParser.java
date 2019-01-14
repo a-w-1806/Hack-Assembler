@@ -83,7 +83,14 @@ public class LineParser {
      * @return Command type. If this line is blank or a comment, return null.
      */
     private Command identifyType() {
-        return null;
+        if (assemblyLine.equals("")) {
+            return null;
+        }
+        switch (assemblyLine.charAt(0)) {
+            case '@':   return Command.A_COMMAND;
+            case '(':   return Command.L_COMMAND;
+            default:    return Command.C_COMMAND;
+        }
     }
 
     private String CToCode() {
