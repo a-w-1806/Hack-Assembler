@@ -1,7 +1,3 @@
-package test;
-
-import com.github.YuchenWangSH.Command;
-import com.github.YuchenWangSH.LineParser;
 import org.junit.Before;
 import org.junit.Test;
 

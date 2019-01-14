@@ -1,5 +1,3 @@
-package com.github.YuchenWangSH;
-
 import java.io.*;
 
 public class HackAssembler {

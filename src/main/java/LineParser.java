@@ -1,5 +1,3 @@
-package com.github.YuchenWangSH;
-
 import java.util.HashMap;
 import java.util.Map;
 
