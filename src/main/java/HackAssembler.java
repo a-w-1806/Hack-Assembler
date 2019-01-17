@@ -9,7 +9,7 @@ public class HackAssembler {
 
     private static String secondPass(String path) {
         LineParser.resetNumLine();
-        String machineCode = "";
+        StringBuilder machineCode = new StringBuilder();
         try {
             InputStream is = new FileInputStream(path);
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(is));
@@ -24,13 +24,13 @@ public class HackAssembler {
                 if (line.getType() == null || line.getType() == Command.L_COMMAND) {
                     continue;
                 }
-                machineCode += line.toCode() + "\n";
+                machineCode.append(line.toCode()).append("\n");
             }
             is.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return machineCode;
+        return machineCode.toString();
     }
 
     private static void firstPass(String path) {
