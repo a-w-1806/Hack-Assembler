@@ -54,11 +54,22 @@ public class HackAssembler {
     }
 
     public static void main(String[] args) {
-        if (args.length == 0 || !args[0].split("\\.")[1].equals("asm")) {
+        if (args.length != 1) {
+            throw new IllegalArgumentException("You should only provide a path.");
+        }
+        String path = args[0];
+        String extension;
+        int lastDotIndex = path.lastIndexOf('.');
+        if (lastDotIndex > 0) {
+            extension = path.substring(lastDotIndex+1);
+        } else {
+            throw new IllegalArgumentException("Does this file have extension?");
+        }
+        if (!extension.equals("asm")) {
             throw new IllegalArgumentException("Must specify a valid .asm file!");
         }
         String machineCode = compile(args[0]);
-        String outputFilePath = args[0].split("\\.")[0] + ".hack";
+        String outputFilePath = path.substring(0, lastDotIndex) + ".hack";
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath));
             writer.write(machineCode);
